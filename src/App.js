@@ -27,9 +27,9 @@ const App = () => {
     setUserInput(inputText);
   }
 
-  
 
- /*  const renderLoading = () => {
+
+  /* const renderLoading = () => {
     return (
       <span>
         'Loading'...^__^
@@ -39,10 +39,10 @@ const App = () => {
   return (
     <div className="app-wrapper">
       <div className="user-input">
-        <input type="text" value={userInput} onChange={handleChange}/>
+        <input type="text" value={userInput} onChange={handleChange} />
         <button onClick={handleClick}>Confirm</button>
       </div>
-      <List listValue={todoList}/>
+      <List listValue={todoList} />
     </div>
   );
 }

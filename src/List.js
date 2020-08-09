@@ -1,8 +1,8 @@
 import React from 'react';
 import Loading from './Loading';
-const List = ({listValue}) => {
-    
-    
+const List = ({ listValue }) => {
+
+
     const renderList = () => {
         return (
             <ul>
